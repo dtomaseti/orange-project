@@ -78,6 +78,8 @@ html {
     margin: 0 auto
   }
   
+ 
+
   h4 {
     color: #031D5B;
     font-size: 18px;
@@ -266,4 +268,55 @@ html {
     width: 168px;
     margin-top: 30px;
     margin-bottom: 100px;
+}
+
+header img {
+    margin-left: 30px;
+}
+
+.h3 {
+    margin-top: 20px;
+    margin-bottom: 40px;    
+}
+
+.section5 form input {
+    color: #CDCDCD;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    border-radius: 20px;
+    border: none;
+    width: 335px;
+    height: 60px;
+    padding: 21px 162px 19px 25px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 1px 5px 0 rgba(0,0,0,0.15);
+}
+
+.section5 form button {
+    background-color: #9BDBE7;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);    
+    height: 60px;	
+    width: 168px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #F8765E;
+}
+
+footer p {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
