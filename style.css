@@ -78,12 +78,11 @@ html {
     margin: 0 auto
   }
   
-  .h4 {
+  h4 {
     color: #031D5B;
     font-size: 18px;
     line-height: 25px;
     font-weight: 500;
-    margin: 0 auto;
     text-align: left;
   }
 
@@ -208,12 +207,30 @@ header nav ul {
 
 }
 
-.section2 ul {
+.ul1 {
     background-color: white;
-    height: 1571px;	
     width: 335px;
     border-radius: 20px;
     box-shadow: 0 10px 34px 0 rgba(210,210,210,0.5);
-    margin-top: -64px;
-    padding: 20px;
+    margin: -64px 20px 100px 20px;
+    padding: 60px 20px 60px 20px;
+}
+
+.ul1 img {
+    margin-bottom: 50px;
+}
+
+.ul1 h4 {
+    border-bottom: 5px solid #F8765E; 
+    padding-bottom: 20px;
+    margin-right: 235px;
+}
+
+.ul1 p {
+    color: #5B6C94;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 60px;
 }
