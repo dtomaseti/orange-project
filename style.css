@@ -1,0 +1,119 @@
+
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+/* ---- typography ---- */
+  
+  body {
+    color: #111;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 147%;
+    text-align: center;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 26px;  
+    line-height: 58px;  
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+
+  .h2 {
+    color: #F8765E;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    margin: 0 auto; 
+  }
+  
+  h3 {
+    color: #031D5B;
+    font-size: 26px;
+    line-height: 45px;
+    font-weight: 500;
+    margin: 0 auto
+  }
+  
+  p {
+    margin: 0;
+  }
+    
+/* ---- layout ---- */
+  
+  #site-header {
+    padding: 30px 0;
+    color: white;
+    background: #111;
+  }
+  
+  #site-footer {
+    color: white;
+    padding: 60px 0;
+    background: #111;
+  }
+  
+  #site-main {
+    margin-bottom: 60px;
+  }
+  
+  .container {
+    margin: 0 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 728px;
+      margin: 0 auto;
+    }
+  }
+  
+/* ---- components ---- */
+  
+  .button {
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid #fff
+  }
+  
+  .button-alt {
+    color: blue;
+    background-color: #fff;
+  }
+  
+/* ---- section ---- */
+  
+header {
+    background-color: #F8765E;
+}
+
+body {
+
+}
