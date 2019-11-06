@@ -88,7 +88,7 @@ html {
     text-align: left;
   }
 
-  .h5 {
+  h5 {
     color: #F8765E;
     font-size: 16px;
     line-height: 20px;
@@ -270,8 +270,35 @@ html {
     margin-bottom: 100px;
 }
 
-header img {
+.section4 {
+    text-align: left;
+}
+
+.section4 header img {
     margin-left: 30px;
+    position: relative;
+    z-index: 5;
+}
+
+.section4 h5 {
+    line-height: 35px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 200px;
+    position: absolute;
+    z-index: 10;
+}
+
+.section4 div {
+    height: 660px;
+    width: 300px;
+    border-radius: 20px 0 0 20px;
+    background-color: #F8765E;
+    position: relative;
+    z-index: 0;
+    left: 75px;
+    top: -45px;
+    }
 }
 
 .h3 {
