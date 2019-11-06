@@ -26,6 +26,14 @@ html {
     color: white;
     text-decoration: none;
   }
+
+/* ---- variables ---- */
+
+:root {
+    --main-color: #F8765E;
+    --white: #FFFFFF;
+    --button-color: #9BDBE7;
+}
   
 /* ---- typography ---- */
   
@@ -55,7 +63,7 @@ html {
   }
 
   .h2 {
-    color: #F8765E;
+    color: var(--main-color);
     font-size: 30px;
     line-height: 40px;
     font-weight: bold;
@@ -89,7 +97,7 @@ html {
   }
 
   h5 {
-    color: #F8765E;
+    color: var(--main-color);
     font-size: 16px;
     line-height: 20px;
     font-weight: bold;
@@ -136,23 +144,25 @@ html {
   }
   
 /* ---- components ---- */
-  
-  .button {
-    width: 100%;
-    background-color: blue;
-    color: #fff;
-    border: 1px solid #fff
-  }
-  
-  .button-alt {
-    color: blue;
-    background-color: #fff;
-  }
+
+  button {
+  background-color: var(--button-color);
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
+  text-align: center;
+  box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);    
+  height: 60px;	
+  width: 168px;
+  margin-bottom: 100px;
+}
   
 /* ---- section ---- */
   
 .header1 {
-    background-color: #F8765E;
+    background-color: var(--main-color);
     padding-top: 25px;
     padding-bottom: 15px;
 }
@@ -162,7 +172,7 @@ html {
 }
 
 .section1 {
-    background-color: #F8765E;
+    background-color: var(--main-color);
     padding-top: 60px;
 }
 
@@ -194,19 +204,9 @@ html {
     box-shadow: inset 0 1px 5px 0 rgba(0,0,0,0.15);
 }
 
-.section1 form button {
-    background-color: #9BDBE7;
-    color: white;
-    border-radius: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 25px;
-    text-align: center;
-    box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);    
-    height: 60px;	
-    width: 168px;
+.section1 button{
     margin-bottom: 140px;
-}
+} 
 
 .ul1 {
     background-color: white;
@@ -222,7 +222,7 @@ html {
 }
 
 .ul1 h4 {
-    border-bottom: 5px solid #F8765E; 
+    border-bottom: 5px solid var(--main-color); 
     padding-bottom: 20px;
     margin-right: 235px;
 }
@@ -256,18 +256,7 @@ html {
 } 
 
 .section3 button {
-    background-color: #9BDBE7;
-    color: white;
-    border-radius: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 24px;
-    text-align: center;
-    box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);
-    height: 60px;	
-    width: 168px;
     margin-top: 30px;
-    margin-bottom: 100px;
 }
 
 .section4 {
@@ -293,12 +282,42 @@ html {
     height: 660px;
     width: 300px;
     border-radius: 20px 0 0 20px;
-    background-color: #F8765E;
+    background-color: var(--main-color);
     position: relative;
     z-index: 0;
     left: 75px;
     top: -45px;
     }
+
+.card1 {
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #9BDBE7;
+    box-shadow: 12px 12px 40px 0 rgba(0,0,0,0.2);
+}
+
+.card1 img { 
+    margin-top: 80px;
+    margin-right: 201px;
+    margin-left: 50px;
+}
+
+.p1 {
+    color: white;
+    font-size: 18px;	
+    font-weight: 500;	
+    line-height: 36px;
+    margin-left: 50.5px;
+}
+
+.p2 {
+    color: white;
+    font-size: 18px;	
+    font-weight: 500;	
+    line-height: 36px;
+    margin-left: 50.5px;
+    margin-top: 78px;
 }
 
 .h3 {
@@ -320,22 +339,8 @@ html {
     box-shadow: inset 0 1px 5px 0 rgba(0,0,0,0.15);
 }
 
-.section5 form button {
-    background-color: #9BDBE7;
-    color: white;
-    border-radius: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 25px;
-    text-align: center;
-    box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);    
-    height: 60px;	
-    width: 168px;
-    margin-bottom: 100px;
-}
-
 footer {
-    background-color: #F8765E;
+    background-color: var(--main-color);
 }
 
 footer p {
