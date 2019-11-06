@@ -289,12 +289,19 @@ html {
     top: -45px;
     }
 
+.section4 ul {
+    margin-bottom: 0px;
+}
+
 .card1 {
     height: 400px;
     width: 300px;
     border-radius: 20px;
     background-color: #9BDBE7;
     box-shadow: 12px 12px 40px 0 rgba(0,0,0,0.2);
+    position: relative;
+    top: -575px;
+    margin-left: 20px;
 }
 
 .card1 img { 
@@ -307,10 +314,10 @@ html {
     color: white;
     font-size: 18px;	
     font-weight: 500;	
-    line-height: 36px;
+    line-height: 60px;
     margin-left: 50.5px;
+    margin-right: 80px;
 }
-
 .p2 {
     color: white;
     font-size: 18px;	
@@ -318,6 +325,17 @@ html {
     line-height: 36px;
     margin-left: 50.5px;
     margin-top: 78px;
+}
+
+.card2 {
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 12px 12px 40px 0 rgba(0,0,0,0.2);
+    position: relative;
+    top: -975px;
+    margin-left: 340px;
 }
 
 .h3 {
