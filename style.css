@@ -52,6 +52,7 @@ html {
     font-weight: 900;
     text-transform: uppercase;
     margin: 0 auto;
+    padding-bottom: 4%;
   }
   
   h2 {
@@ -167,13 +168,9 @@ html {
     padding-bottom: 4%;
 }
 
-.header1 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .header1 nav ul {
+    display: flex;
+    justify-content: space-evenly;
     margin: 0;
 }
 
@@ -362,7 +359,7 @@ html {
 }
 
 .section5 form input {
-    color: #CDCDCD;
+    color: #CDCDCD;    
     font-size: 17px;
     font-weight: bold;
     line-height: 20px;
@@ -386,10 +383,12 @@ footer p {
     line-height: 32px;
     text-align: center;
     padding-top: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 
-footer nav {
+footer nav ul {
+    color: #FFFFFF;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding-bottom: 20%;
 }
