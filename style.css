@@ -59,7 +59,7 @@ html {
     font-size: 30px;
     line-height: 40px;
     font-weight: bold;
-    margin: 60px 30px 15px 30px;
+    margin: 16% 8% 4% 8%;
   }
 
   .h2 {
@@ -163,8 +163,8 @@ html {
   
 .header1 {
     background-color: var(--main-color);
-    padding-top: 25px;
-    padding-bottom: 15px;
+    padding-top: 7%;
+    padding-bottom: 4%;
 }
 
 .header1 nav ul {
@@ -173,12 +173,12 @@ html {
 
 .section1 {
     background-color: var(--main-color);
-    padding-top: 60px;
+    padding-top: 16%;
 }
 
 .section1 img {
-    height: 231px;
-    margin-left: 25px;
+    height: 60%;
+    margin-left: 7%;
 }
 
 .section1 p {
@@ -187,7 +187,7 @@ html {
     font-weight: bold;
     line-height: 32px;
     text-align: center;
-    margin: 15px 30px 30px 30px;
+    margin: 4% 8% 8% 8%;
 }
 
 .section1 form input {
@@ -197,23 +197,23 @@ html {
     line-height: 20px;
     border-radius: 20px;
     border: none;
-    width: 335px;
-    height: 60px;
-    padding: 21px 162px 19px 25px;
-    margin-bottom: 20px;
-    box-shadow: inset 0 1px 5px 0 rgba(0,0,0,0.15);
+    width: 90%;
+    height: 20%;
+    padding: 5% 42% 5% 7%;
+    margin-bottom: 5%;
+    box-shadow: inset 0 1% 1% 0 rgba(0,0,0,0.15);
 }
 
 .section1 button{
-    margin-bottom: 140px;
+    margin-bottom: 36%;
 } 
 
 .ul1 {
     background-color: white;
-    width: 335px;
+    width: 89%;
     border-radius: 20px;
     box-shadow: 0 10px 34px 0 rgba(210,210,210,0.5);
-    margin: -64px 20px 100px 20px;
+    margin: -17% 5% 26% 5%;
     padding: 60px 20px 60px 20px;
 }
 
@@ -278,7 +278,7 @@ html {
     z-index: 10;
 }
 
-.section4 div {
+.section4 .articles-container {
     height: 660px;
     width: 300px;
     border-radius: 20px 0 0 20px;
@@ -286,11 +286,11 @@ html {
     position: relative;
     z-index: 0;
     left: 75px;
-    top: -45px;
-    }
+    margin-bottom: 100px;
+}
 
-.section4 ul {
-    margin-bottom: 0px;
+.scroll-container {
+    overflow: scroll;
 }
 
 .card1 {
@@ -299,15 +299,27 @@ html {
     border-radius: 20px;
     background-color: #9BDBE7;
     box-shadow: 12px 12px 40px 0 rgba(0,0,0,0.2);
-    position: relative;
-    top: -575px;
-    margin-left: 20px;
+    position: absolute;
+    top: 100px;
+    margin-left: -40px;
 }
 
 .card1 img { 
     margin-top: 80px;
     margin-right: 201px;
     margin-left: 50px;
+}
+
+.card2 {
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #9BDBE7;
+    box-shadow: 12px 12px 40px 0 rgba(0,0,0,0.2);
+    position: relative;
+    top: 100px;
+    left: 30px;
+    margin-right: 50px;
 }
 
 .p1 {
@@ -333,9 +345,9 @@ html {
     border-radius: 20px;
     background-color: #FFFFFF;
     box-shadow: 12px 12px 40px 0 rgba(0,0,0,0.2);
-    position: relative;
-    top: -975px;
-    margin-left: 340px;
+    position: absolute;
+    top: 100px;
+    margin-left: 250px;
 }
 
 .h3 {
@@ -369,4 +381,9 @@ footer p {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 20px;
+}
+
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
 }
